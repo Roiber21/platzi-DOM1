@@ -1,3 +1,36 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.card{
+    justify-content: center;
+    width: 15rem;
+    height: 22rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 9px 30px 0 rgb(0 0 0 / 10%);
+}
+.card:hover{
+    background-color: rgb(212, 222, 228);
+    width: 16rem;
+    height: 23rem;
+    transition: 0.7s;
+}
+
+.boton{
+    position: relative;
+    display: flex;
+    top: 2px;
+    left: 80px;
+}
+
+.price{
+    position: relative;
+    display: flex;
+    top: 35px;
+    left: 16px;
+    font-size: 23px;
+}
+.imagen{
+    border-radius: 80px;
+}
