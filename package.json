@@ -1,4 +1,5 @@
 {
+  "homepage": "https://roiber21.github.io/platzi-DOM1",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
